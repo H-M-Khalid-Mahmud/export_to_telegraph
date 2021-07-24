@@ -7,7 +7,7 @@ Library for export webpage to Telegraph.
 ```
 import export_to_telegraph
 export_to_telegraph.TOKEN = YOUR_TELEGRAPH_TOKEN
-telegraph_url = export_to_telegraph.export(webpage_url)
+telegraph_url = export_to_telegraph.export(webpage_url, force=True)
 ```
 
 If export failed, `telegraph_url` will be None.
